@@ -1,4 +1,5 @@
-﻿
+﻿using NonStaticLineComparision;
+
 namespace LineComparisionComputationProblem
 {
     class Program
@@ -6,7 +7,9 @@ namespace LineComparisionComputationProblem
         public static void Main(string[] args)
         {
             Console.WriteLine("Welcome to the Line Computation Problems");
-            
+            LineDifference Difference = new LineDifference();
+            Difference.LineDistance();
+
         }
     }
 }
