@@ -7,9 +7,11 @@ namespace LineComparisionComputationProblem
         public static void Main(string[] args)
         {
             Console.WriteLine("Welcome to the Line Computation Problems");
-            LineDifference Difference = new LineDifference();
-            Difference.LineDistance();
+            
+            LineEquality Equality = new LineEquality();
+            Equality.Equality();
 
+           
         }
     }
 }
